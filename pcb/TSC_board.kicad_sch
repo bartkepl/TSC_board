@@ -116,7 +116,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 72.39) (xy 86.36 72.39)
+			(xy 68.58 69.85) (xy 86.36 69.85)
 		)
 		(stroke
 			(width 0)
@@ -126,7 +126,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 52.07) (xy 86.36 52.07)
+			(xy 68.58 46.99) (xy 86.36 46.99)
 		)
 		(stroke
 			(width 0)
@@ -136,7 +136,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 74.93) (xy 86.36 74.93)
+			(xy 68.58 72.39) (xy 86.36 72.39)
 		)
 		(stroke
 			(width 0)
@@ -146,7 +146,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 86.36 59.69)
+			(xy 68.58 57.15) (xy 86.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -156,7 +156,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 64.77) (xy 86.36 64.77)
+			(xy 68.58 62.23) (xy 86.36 62.23)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +166,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 57.15) (xy 86.36 57.15)
+			(xy 68.58 52.07) (xy 86.36 52.07)
 		)
 		(stroke
 			(width 0)
@@ -176,7 +176,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 54.61) (xy 86.36 54.61)
+			(xy 68.58 49.53) (xy 86.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -186,7 +186,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 86.36 62.23)
+			(xy 68.58 59.69) (xy 86.36 59.69)
 		)
 		(stroke
 			(width 0)
@@ -196,7 +196,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 77.47) (xy 86.36 77.47)
+			(xy 68.58 74.93) (xy 86.36 74.93)
 		)
 		(stroke
 			(width 0)
@@ -206,7 +206,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 86.36 69.85)
+			(xy 68.58 67.31) (xy 86.36 67.31)
 		)
 		(stroke
 			(width 0)
@@ -289,6 +289,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 21.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/0c4edb77-9bdf-4103-be66-c5eb9940b163"
@@ -353,6 +371,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 41.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 41.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "100x100_eurocard_testboard"
 				(path "/0c4edb77-9bdf-4103-be66-c5eb9940b163"
@@ -363,8 +399,8 @@
 		)
 	)
 	(sheet
-		(at 49.53 48.26)
-		(size 19.05 40.64)
+		(at 49.53 25.4)
+		(size 19.05 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -379,7 +415,7 @@
 		)
 		(uuid "92da3f15-6ca3-419e-9376-1f5f82193d40")
 		(property "Sheetname" "Frontend"
-			(at 49.53 47.5484 0)
+			(at 49.53 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +433,7 @@
 			)
 		)
 		(pin "CH1_1_IN" input
-			(at 68.58 69.85 0)
+			(at 68.58 67.31 0)
 			(uuid "ad59af96-1dbb-4a61-bb35-f41645afb7f4")
 			(effects
 				(font
@@ -407,7 +443,7 @@
 			)
 		)
 		(pin "CH1_2_IN" input
-			(at 68.58 72.39 0)
+			(at 68.58 69.85 0)
 			(uuid "a68c3e62-57b9-4e7a-a225-348391dfb5c9")
 			(effects
 				(font
@@ -417,7 +453,7 @@
 			)
 		)
 		(pin "CH1_3_IN" input
-			(at 68.58 74.93 0)
+			(at 68.58 72.39 0)
 			(uuid "59838e4e-9507-4458-92a2-d20811314606")
 			(effects
 				(font
@@ -427,7 +463,7 @@
 			)
 		)
 		(pin "CH1_4_IN" input
-			(at 68.58 77.47 0)
+			(at 68.58 74.93 0)
 			(uuid "f9029e94-b521-4214-aeea-8a723e165411")
 			(effects
 				(font
@@ -477,7 +513,7 @@
 			)
 		)
 		(pin "CH3_1_IN" input
-			(at 68.58 52.07 0)
+			(at 68.58 46.99 0)
 			(uuid "0aaf081b-d75e-45c0-9a58-de79e4fca649")
 			(effects
 				(font
@@ -487,7 +523,7 @@
 			)
 		)
 		(pin "CH3_2_IN" input
-			(at 68.58 54.61 0)
+			(at 68.58 49.53 0)
 			(uuid "e9779833-28d3-4dbc-b33c-59ebd6ea9c70")
 			(effects
 				(font
@@ -497,7 +533,7 @@
 			)
 		)
 		(pin "CH3_3_IN" input
-			(at 68.58 57.15 0)
+			(at 68.58 52.07 0)
 			(uuid "c0d3b655-d445-4ef2-8fde-23f85c1ff218")
 			(effects
 				(font
@@ -507,7 +543,7 @@
 			)
 		)
 		(pin "CH4_1_IN" input
-			(at 68.58 59.69 0)
+			(at 68.58 57.15 0)
 			(uuid "72d1c2b4-05b3-4e3c-9a4b-00fafd00ea3e")
 			(effects
 				(font
@@ -517,7 +553,7 @@
 			)
 		)
 		(pin "CH4_2_IN" input
-			(at 68.58 62.23 0)
+			(at 68.58 59.69 0)
 			(uuid "4bca05d3-7f93-43d5-b04f-29426d990f39")
 			(effects
 				(font
@@ -527,7 +563,7 @@
 			)
 		)
 		(pin "CH4_3_IN" input
-			(at 68.58 64.77 0)
+			(at 68.58 62.23 0)
 			(uuid "c68bda72-bc07-4bd4-b1ed-7b899c710047")
 			(effects
 				(font
@@ -545,7 +581,7 @@
 		)
 	)
 	(sheet
-		(at 86.36 39.37)
+		(at 86.36 25.4)
 		(size 25.4 82.55)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -561,7 +597,7 @@
 		)
 		(uuid "b8636e51-b60d-4a29-a393-cb29f2d378a9")
 		(property "Sheetname" "MCU"
-			(at 86.36 38.6584 0)
+			(at 86.36 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,7 +606,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 86.36 122.5046 0)
+			(at 86.36 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,198 +614,8 @@
 				(justify left top)
 			)
 		)
-		(pin "USART1_RX" input
-			(at 111.76 90.17 0)
-			(uuid "a1d35216-efa3-4daf-afe3-88e2a46b8eb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USART1_TX" input
-			(at 111.76 87.63 0)
-			(uuid "194768db-06a5-4bdc-99a0-0ae621047ce2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DETECT" input
-			(at 111.76 68.58 0)
-			(uuid "d425fa59-4902-474e-9f4b-0e00ae4a8758")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DM" input
-			(at 111.76 73.66 0)
-			(uuid "8f54089a-9f06-4e0f-aa74-891afeb3c8dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DP" input
-			(at 111.76 71.12 0)
-			(uuid "f3ba8cb1-b359-4ce0-82c0-7f03312460e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "W5500_CS" input
-			(at 111.76 105.41 0)
-			(uuid "dc3102e9-4bcf-43c6-b32f-efede5d1fab6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "W5500_INT" input
-			(at 111.76 107.95 0)
-			(uuid "178e23f6-1708-4f94-a7d4-0ef5e607aa27")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "W5500_MISO" input
-			(at 111.76 110.49 0)
-			(uuid "9ca0c3aa-8310-4697-97e6-52512a24688c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "W5500_MOSI" input
-			(at 111.76 113.03 0)
-			(uuid "cb54b447-0535-45fa-a9e6-8a580ffa0293")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "W5500_RST" input
-			(at 111.76 115.57 0)
-			(uuid "6ebb0972-ae80-4a51-b12c-2f660292fd05")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "W5500_SCK" input
-			(at 111.76 118.11 0)
-			(uuid "a91fe158-56bf-4fec-8622-4a7b9b3d4d3d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCO" input
-			(at 111.76 102.87 0)
-			(uuid "902f98a0-85fc-4e76-85a9-d42177360ae5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED_G" input
-			(at 86.36 115.57 180)
-			(uuid "8e0bf37f-db6d-4b3f-8916-34cb3d0bae4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LED_R" input
-			(at 86.36 118.11 180)
-			(uuid "689bf60f-2341-4d31-80b4-67e45f9c0507")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCL" input
-			(at 111.76 96.52 0)
-			(uuid "adfc06c8-1caa-454b-b089-f68b9b2d4683")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA" input
-			(at 111.76 93.98 0)
-			(uuid "90dfc91e-c12d-4954-b3f7-2b8203dc4215")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART4_DE" input
-			(at 111.76 77.47 0)
-			(uuid "4204c2e5-f42d-4a02-9e54-d4b435b79811")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART4_RX" input
-			(at 111.76 82.55 0)
-			(uuid "57c468d6-c2b9-417b-ae36-21b0d74d9a25")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART4_TX" input
-			(at 111.76 80.01 0)
-			(uuid "24ffb2db-3a6b-41c3-9064-a6675b55199c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "LPTIM1_IN1" input
-			(at 86.36 52.07 180)
+			(at 86.36 46.99 180)
 			(uuid "c05a33ea-3654-4e5a-8ff3-f486c9046c86")
 			(effects
 				(font
@@ -838,16 +684,6 @@
 				(justify left)
 			)
 		)
-		(pin "TIM1_ETR" input
-			(at 86.36 54.61 180)
-			(uuid "159f7ffe-da67-4916-ae17-7e7a8e867a94")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TIM2_CH1" input
 			(at 86.36 80.01 180)
 			(uuid "65dfe1a2-62e5-4c12-8d97-87a0a3652b34")
@@ -878,38 +714,8 @@
 				(justify left)
 			)
 		)
-		(pin "TIM3_ETR" input
-			(at 86.36 57.15 180)
-			(uuid "aaf476f3-46de-42b1-8eea-5536058478ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TIM4_CH2" input
-			(at 86.36 59.69 180)
-			(uuid "f1c7ce95-a8e6-4078-b5bb-ac393f5f6b76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TIM4_CH4" input
-			(at 86.36 62.23 180)
-			(uuid "7842cfd5-c079-436c-b3ed-7880e7c79faf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TIM5_CH1" input
-			(at 86.36 69.85 180)
+			(at 86.36 67.31 180)
 			(uuid "9ff58642-a45b-4f7c-811a-a9503ef86af4")
 			(effects
 				(font
@@ -919,7 +725,7 @@
 			)
 		)
 		(pin "TIM5_CH2" input
-			(at 86.36 72.39 180)
+			(at 86.36 69.85 180)
 			(uuid "0f1b1cba-807b-4a81-82a6-33de1d8da507")
 			(effects
 				(font
@@ -929,7 +735,7 @@
 			)
 		)
 		(pin "TIM5_CH3" input
-			(at 86.36 74.93 180)
+			(at 86.36 72.39 180)
 			(uuid "a89403ca-b388-4b4b-824a-1ba32abef0e0")
 			(effects
 				(font
@@ -939,18 +745,8 @@
 			)
 		)
 		(pin "TIM5_CH4" input
-			(at 86.36 77.47 180)
+			(at 86.36 74.93 180)
 			(uuid "2593cc9d-f758-4e75-be71-8798142b5da4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TIM8_ETR" input
-			(at 86.36 64.77 180)
-			(uuid "f6f7f0ad-d63b-499c-85c3-30f4e6d43c30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,6 +757,116 @@
 		(pin "TIM2_CH2" input
 			(at 86.36 82.55 180)
 			(uuid "27103ba6-b4d5-4f97-9cc1-86b3c2bb46c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_CS1" input
+			(at 86.36 34.29 180)
+			(uuid "bb905b5d-6df6-4c12-be70-1e0caf246e2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_CS2" input
+			(at 86.36 36.83 180)
+			(uuid "0733f94b-21c8-46cd-b0a0-2b001880cac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_CS3" input
+			(at 86.36 39.37 180)
+			(uuid "981dc1f7-a543-45ad-a561-497ba36f5dc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_CS4" input
+			(at 86.36 41.91 180)
+			(uuid "1d987483-6b32-4e04-aafa-20c11c3c83b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_MOSI" input
+			(at 86.36 29.21 180)
+			(uuid "b1afc988-5e4a-48bc-8fd7-f169b2059321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_SCK" input
+			(at 86.36 31.75 180)
+			(uuid "e665c4f3-1b42-4ac2-9f48-b382d22a5fe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LPTIM3_IN1" input
+			(at 86.36 49.53 180)
+			(uuid "79cedd62-cb4d-4fa2-83a4-21884073aaf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LPTIM4_IN1" input
+			(at 86.36 52.07 180)
+			(uuid "e9e874c0-e0d9-417f-8a32-83f64bf40acd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM1_ETR" input
+			(at 86.36 57.15 180)
+			(uuid "33138a9c-1d5d-4b4c-9424-86b2d49dcfe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM3_ETR" input
+			(at 86.36 59.69 180)
+			(uuid "a3cb8781-ac32-41c5-b7cf-dacde5bb66bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM4_ETR" input
+			(at 86.36 62.23 180)
+			(uuid "1e1a3688-14e7-4719-8430-fa8205ae7d35")
 			(effects
 				(font
 					(size 1.27 1.27)
