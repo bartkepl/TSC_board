@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Conn")(type "KiCad")(uri "${KIPRJMOD}/Connector.pretty")(options "")(descr ""))
+  (lib (name "TS3021ILT")(type "KiCad")(uri "${KIPRJMOD}/TS3021ILT")(options "")(descr ""))
+)

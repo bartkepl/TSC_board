@@ -717,24 +717,12 @@
       "Root"
     ],
     [
-      "8ab86091-8037-4e58-8522-0946e4707b6d",
-      "ConnectorDIN41612"
-    ],
-    [
-      "7e1fd6ab-9257-4fb8-b441-cd2451b29cbb",
-      "EthernetPHY"
-    ],
-    [
       "b8636e51-b60d-4a29-a393-cb29f2d378a9",
       "MCU"
     ],
     [
       "92da3f15-6ca3-419e-9376-1f5f82193d40",
       "Frontend"
-    ],
-    [
-      "9c3b90eb-9796-4702-a5ac-12d5f4ffdc75",
-      "PSU"
     ]
   ],
   "text_variables": {}
