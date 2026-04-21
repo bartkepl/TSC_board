@@ -1532,145 +1532,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
@@ -2639,16 +2500,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 36.83) (xy 217.17 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0144792d-dceb-49e9-9eb7-9201b4608e20")
-	)
-	(wire
-		(pts
 			(xy 214.63 43.18) (xy 241.3 43.18)
 		)
 		(stroke
@@ -2656,16 +2507,6 @@
 			(type default)
 		)
 		(uuid "016969ea-7784-4688-972d-d58c98ad2c9d")
-	)
-	(wire
-		(pts
-			(xy 205.74 35.56) (xy 205.74 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0237e908-dc1b-421c-a137-79ebc816c9be")
 	)
 	(wire
 		(pts
@@ -2699,16 +2540,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 25.4) (xy 205.74 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ee6cb5-e370-4cc1-b373-680aa576fffd")
-	)
-	(wire
-		(pts
 			(xy 237.49 58.42) (xy 240.03 58.42)
 		)
 		(stroke
@@ -2726,16 +2557,6 @@
 			(type default)
 		)
 		(uuid "067e44ef-d1b1-40bf-9570-2a3ae18c1b0c")
-	)
-	(wire
-		(pts
-			(xy 205.74 25.4) (xy 217.17 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c54796b-64ca-4272-8421-8c979b40d38c")
 	)
 	(wire
 		(pts
@@ -2916,16 +2737,6 @@
 			(type default)
 		)
 		(uuid "51202c6b-6ce3-41ae-9f0f-bdd2c996509c")
-	)
-	(wire
-		(pts
-			(xy 217.17 27.94) (xy 217.17 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53014950-1a23-4460-9f7f-1ced7569d632")
 	)
 	(wire
 		(pts
@@ -3469,16 +3280,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 35.56) (xy 217.17 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d014a36c-5965-4378-870f-4e49f001a442")
-	)
-	(wire
-		(pts
 			(xy 240.03 57.15) (xy 245.11 57.15)
 		)
 		(stroke
@@ -3964,94 +3765,6 @@
 			(project ""
 				(path "/0c4edb77-9bdf-4103-be66-c5eb9940b163/b8636e51-b60d-4a29-a393-cb29f2d378a9"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 217.17 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f248169-09ac-42fa-a3a6-9a677fd4cbd7")
-		(property "Reference" "C2"
-			(at 213.36 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 213.36 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 216.2048 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CL31B106KBHNNNE"
-			(at 217.17 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 217.17 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 217.17 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63a88381-0989-4714-95ca-5057c37447f8")
-		)
-		(pin "2"
-			(uuid "711fe785-cf4d-42c6-8701-b882de472046")
-		)
-		(instances
-			(project "TSC_board"
-				(path "/0c4edb77-9bdf-4103-be66-c5eb9940b163/b8636e51-b60d-4a29-a393-cb29f2d378a9"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5114,93 +4827,6 @@
 			(project ""
 				(path "/0c4edb77-9bdf-4103-be66-c5eb9940b163/b8636e51-b60d-4a29-a393-cb29f2d378a9"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 205.74 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3528e25-6a25-44bb-a7a0-b98b9796f184")
-		(property "Reference" "C1"
-			(at 202.438 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 202.438 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 204.7748 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8317bd03-3bbc-4611-8783-4fe3953e37b2")
-		)
-		(pin "2"
-			(uuid "6742d3df-1007-409e-bb1a-d73ef6bb4a3f")
-		)
-		(instances
-			(project "TSC_board"
-				(path "/0c4edb77-9bdf-4103-be66-c5eb9940b163/b8636e51-b60d-4a29-a393-cb29f2d378a9"
-					(reference "C1")
 					(unit 1)
 				)
 			)

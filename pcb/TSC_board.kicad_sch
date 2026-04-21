@@ -106,6 +106,36 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 31.75) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f59287-18b7-4c63-890a-1558433c0704")
+	)
+	(wire
+		(pts
+			(xy 68.58 39.37) (xy 86.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a982a52-e644-4fb9-8f3a-371fa4e0b92d")
+	)
+	(wire
+		(pts
+			(xy 68.58 36.83) (xy 86.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f34d5bc-f5fa-49df-89f3-d89271f4cbd9")
+	)
+	(wire
+		(pts
 			(xy 68.58 87.63) (xy 86.36 87.63)
 		)
 		(stroke
@@ -153,6 +183,16 @@
 			(type default)
 		)
 		(uuid "6ecc1b96-7b77-481f-8a9d-ce4672df50c9")
+	)
+	(wire
+		(pts
+			(xy 68.58 34.29) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f57d7ae-5f12-470c-8c6e-26e5239ddbb9")
 	)
 	(wire
 		(pts
@@ -216,6 +256,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 29.21) (xy 86.36 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be649d10-c563-4c1b-b78a-4c1e238bef50")
+	)
+	(wire
+		(pts
 			(xy 68.58 82.55) (xy 86.36 82.55)
 		)
 		(stroke
@@ -233,6 +283,16 @@
 			(type default)
 		)
 		(uuid "d4d84719-32dd-4314-b50b-072fea654ed0")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 86.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd36544-164a-48e7-88b5-590e6b0a3c86")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -565,6 +625,66 @@
 		(pin "CH4_3_IN" input
 			(at 68.58 62.23 0)
 			(uuid "c68bda72-bc07-4bd4-b1ed-7b899c710047")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_CS1" input
+			(at 68.58 34.29 0)
+			(uuid "9777fed1-08ee-4dea-85ee-c72d58bf262a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_CS2" input
+			(at 68.58 36.83 0)
+			(uuid "18769752-6748-417b-b341-504ebf90cc0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_CS3" input
+			(at 68.58 39.37 0)
+			(uuid "9b48b1ea-b37c-4b46-9081-1a7d13e68b5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_MOSI" input
+			(at 68.58 29.21 0)
+			(uuid "10b85723-7eb9-4131-8276-1c5d4d534849")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SCK" input
+			(at 68.58 31.75 0)
+			(uuid "33997c97-9057-4d77-b240-f2cde0051c98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_CS4" input
+			(at 68.58 41.91 0)
+			(uuid "512a62ff-c7b9-4b9f-902b-80a47f7f59cd")
 			(effects
 				(font
 					(size 1.27 1.27)
