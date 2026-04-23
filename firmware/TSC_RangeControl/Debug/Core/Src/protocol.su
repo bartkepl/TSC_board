@@ -1,0 +1,5 @@
+../Core/Src/protocol.c:21:9:CRC8	12	static
+../Core/Src/protocol.c:36:13:send_response	16	static
+../Core/Src/protocol.c:50:13:process_frame	24	static
+../Core/Src/protocol.c:78:6:PROTOCOL_ProcessByte	8	static
+../Core/Src/protocol.c:92:6:PROTOCOL_Init	0	static

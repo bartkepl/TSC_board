@@ -1,0 +1,5 @@
+../Core/Src/protocol.c:21:9:CRC8	4
+../Core/Src/protocol.c:36:13:send_response	1
+../Core/Src/protocol.c:50:13:process_frame	4
+../Core/Src/protocol.c:78:6:PROTOCOL_ProcessByte	4
+../Core/Src/protocol.c:92:6:PROTOCOL_Init	1

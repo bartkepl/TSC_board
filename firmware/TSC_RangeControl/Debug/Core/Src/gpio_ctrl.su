@@ -1,0 +1,4 @@
+../Core/Src/gpio_ctrl.c:25:13:set_off	8	static
+../Core/Src/gpio_ctrl.c:32:6:GPIOCTRL_SetChannel	16	static
+../Core/Src/gpio_ctrl.c:15:6:GPIOCTRL_Init	8	static
+../Core/Src/gpio_ctrl.c:49:6:GPIOCTRL_Apply	16	static
