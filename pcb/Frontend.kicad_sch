@@ -39851,7 +39851,7 @@
 			)
 		)
 		(property "Value" "GAQY212GS"
-			(at 402.59 62.23 0)
+			(at 402.59 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54332,7 +54332,7 @@
 		(dnp no)
 		(uuid "b7401c2d-01bb-4772-9e7a-a5064bc7d3f0")
 		(property "Reference" "U8"
-			(at 332.74 59.69 0)
+			(at 332.74 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54340,7 +54340,7 @@
 			)
 		)
 		(property "Value" "GAQY212GS"
-			(at 332.74 62.23 0)
+			(at 332.74 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
