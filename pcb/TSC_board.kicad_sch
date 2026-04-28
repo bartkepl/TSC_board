@@ -306,6 +306,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 31.75) (xy 179.07 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb577783-d93d-48d8-8c39-76a61c8636d2")
+	)
+	(wire
+		(pts
 			(xy 161.29 40.64) (xy 179.07 40.64)
 		)
 		(stroke
@@ -343,6 +353,16 @@
 			(type default)
 		)
 		(uuid "d4d84719-32dd-4314-b50b-072fea654ed0")
+	)
+	(wire
+		(pts
+			(xy 161.29 34.29) (xy 179.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48c3cef-02ec-46a0-85e6-46cf9e13fd12")
 	)
 	(wire
 		(pts
@@ -621,8 +641,8 @@
 		)
 	)
 	(sheet
-		(at 142.24 36.83)
-		(size 19.05 63.5)
+		(at 142.24 27.94)
+		(size 19.05 72.39)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -637,7 +657,7 @@
 		)
 		(uuid "92da3f15-6ca3-419e-9376-1f5f82193d40")
 		(property "Sheetname" "Frontend"
-			(at 142.24 36.1184 0)
+			(at 142.24 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,6 +874,26 @@
 				(justify right)
 			)
 		)
+		(pin "UART_RX" input
+			(at 161.29 31.75 0)
+			(uuid "32a4ab2a-85c2-4b9a-a907-bcfd76722ec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 161.29 34.29 0)
+			(uuid "eae26753-c10e-468f-8299-2a3eb68d63c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "TSC_board"
 				(path "/0c4edb77-9bdf-4103-be66-c5eb9940b163"
@@ -863,8 +903,8 @@
 		)
 	)
 	(sheet
-		(at 179.07 36.83)
-		(size 25.4 87.63)
+		(at 179.07 27.94)
+		(size 25.4 96.52)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -879,7 +919,7 @@
 		)
 		(uuid "b8636e51-b60d-4a29-a393-cb29f2d378a9")
 		(property "Sheetname" "Conn"
-			(at 179.07 36.1184 0)
+			(at 179.07 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,6 +1189,26 @@
 		(pin "TIM4_ETR" input
 			(at 179.07 73.66 180)
 			(uuid "1e1a3688-14e7-4719-8430-fa8205ae7d35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 179.07 31.75 180)
+			(uuid "a4610a30-5611-448b-9ccb-824e38c9fc99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" input
+			(at 179.07 34.29 180)
+			(uuid "32a3bda2-18db-4744-bf52-fcc5cfc190e1")
 			(effects
 				(font
 					(size 1.27 1.27)

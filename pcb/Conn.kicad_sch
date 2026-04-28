@@ -2590,6 +2590,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 88.9) (xy 218.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e40f5a7-bb1a-43d8-8d3c-411c1bad0931")
+	)
+	(wire
+		(pts
 			(xy 237.49 119.38) (xy 241.3 119.38)
 		)
 		(stroke
@@ -3330,6 +3340,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 86.36) (xy 241.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d473d9f9-daa8-4c84-9b79-8fd87fc9f575")
+	)
+	(wire
+		(pts
 			(xy 237.49 104.14) (xy 241.3 104.14)
 		)
 		(stroke
@@ -3461,6 +3481,17 @@
 			(justify right)
 		)
 		(uuid "25bef1e3-7d1d-44f2-89e7-bc73fa912caa")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 241.3 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34fba39b-8db2-42d5-a032-7310e108dbd0")
 	)
 	(hierarchical_label "QSPI_IO0"
 		(shape input)
@@ -3626,6 +3657,17 @@
 			(justify left)
 		)
 		(uuid "87e852c8-0435-43d7-914f-a13127c50ad1")
+	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 214.63 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0d5ab02-a90a-41d8-8a11-332d5829252d")
 	)
 	(hierarchical_label "TIM1_ETR"
 		(shape input)

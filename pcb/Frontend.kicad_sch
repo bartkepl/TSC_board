@@ -28889,6 +28889,39 @@
 		)
 		(uuid "204fcc4c-d59e-4419-969c-9864adbf0bdc")
 	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 40.64 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "246ccf7a-09e4-44ce-bcf7-9c70bdd673a6")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 90.17 500.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25c94c0e-8208-40dd-b3f2-f5a6bf64ac5d")
+	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 76.2 490.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b241cb4-6618-4c36-b823-e6f565fd1f58")
+	)
 	(hierarchical_label "CH4_1_IN"
 		(shape input)
 		(at 596.9 499.11 0)
@@ -28911,6 +28944,17 @@
 		)
 		(uuid "2e0acafe-eb56-4e45-a694-61f84b61dcc7")
 	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 74.93 370.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "303ac485-cd59-4c5d-84cc-473bcaf3ef54")
+	)
 	(hierarchical_label "DAC_SCK"
 		(shape input)
 		(at 585.47 553.72 0)
@@ -28921,6 +28965,28 @@
 			(justify left)
 		)
 		(uuid "33ba2319-4759-4ea7-be36-d9d68b0b1f54")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 58.42 234.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41197bbe-103e-4936-b850-cc198c573937")
+	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 44.45 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41197bbe-103e-4936-b850-cc198c573937")
 	)
 	(hierarchical_label "DAC_SCK"
 		(shape input)
@@ -28977,6 +29043,17 @@
 		)
 		(uuid "ba9a249b-3ac5-47de-a234-8b3b6d3884bd")
 	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 54.61 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2ad88e3-448b-49f3-a06c-dbde13570ad8")
+	)
 	(hierarchical_label "DAC_CS1"
 		(shape input)
 		(at 585.47 153.67 0)
@@ -29009,6 +29086,17 @@
 			(justify left)
 		)
 		(uuid "cd1f8ff0-30ef-4afc-a26c-7c7b325d684f")
+	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 60.96 360.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d58fd177-3ae4-4a4b-803c-af0a796a6be7")
 	)
 	(hierarchical_label "DAC_MOSI"
 		(shape input)
