@@ -1,5 +1,5 @@
 # TSC (TimeStamp Counter)
-TimeStamp Counter board with SCPI, UART, USB, RS485 and ETHERNET in 3U eurocard format
+TimeStamp Counter board, addon board to USB_board 
 ![Standalone Connector Adapter board](media/TSC_board_angle.png)
 
 ---
@@ -10,8 +10,10 @@ TimeStamp Counter board with SCPI, UART, USB, RS485 and ETHERNET in 3U eurocard 
 
 ---
 
-## Features:
--
+## Features (with UCB_board):
+- 2x4 timestamp ports with 0-25v input range and isolation
+- 2x3 isolated counter ports 
+- Digital threshold level control
 - USB 2.0
 - 10/100 Ethernet (based on WIZnet W5500)
 - UART
