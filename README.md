@@ -1,6 +1,6 @@
 # TSC (TimeStamp Counter)
 TimeStamp Counter board, addon board to USB_board 
-![Standalone Connector Adapter board](media/TSC_board_angle.png)
+![Time Stamp Counter board](media/TSC_board_angle.png)
 
 ---
 ## Status : WIP
