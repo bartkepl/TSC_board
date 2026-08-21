@@ -6796,6 +6796,12 @@
 		(uuid "0318fffd-8ef1-472c-9ede-8ed8b35f63cd")
 	)
 	(junction
+		(at 504.19 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03ad066e-381c-46d1-8ac9-85d8563f77e5")
+	)
+	(junction
 		(at 391.16 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7054,12 +7060,6 @@
 		(uuid "19fd1f8d-9831-4216-a846-36c3b337376c")
 	)
 	(junction
-		(at 504.19 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a3f6a39-e842-43bb-b572-b27a8f990de5")
-	)
-	(junction
 		(at 458.47 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7082,12 +7082,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d29d6ff-b5cc-4d25-be1f-6e07e6e15e5f")
-	)
-	(junction
-		(at 504.19 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dea0ae7-c3c9-4035-a3a0-c93e26c5bd24")
 	)
 	(junction
 		(at 551.18 488.95)
@@ -8636,6 +8630,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae5f977c-72cc-4a62-8299-56b06be10b04")
+	)
+	(junction
+		(at 504.19 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af0bbd60-09ae-4183-bf47-48cb58605530")
 	)
 	(junction
 		(at 276.86 508)
@@ -12249,7 +12249,7 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 144.78) (xy 504.19 166.37)
+			(xy 504.19 146.05) (xy 504.19 166.37)
 		)
 		(stroke
 			(width 0)
@@ -17099,7 +17099,7 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 137.16) (xy 504.19 135.89)
+			(xy 504.19 138.43) (xy 504.19 135.89)
 		)
 		(stroke
 			(width 0)
@@ -36447,7 +36447,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "26cbbe87-9240-4e12-a578-914c7d204718")
 		(property "Reference" "U60"
@@ -36461,7 +36461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LM4040DBZ-5"
+		(property "Value" "LM4040D33FTA"
 			(at 506.73 544.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50365,7 +50365,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7981f0c7-224e-4ef8-8b1f-b24964f90230")
 		(property "Reference" "U46"
@@ -50379,7 +50379,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LM4040DBZ-5"
+		(property "Value" "LM4040D33FTA"
 			(at 506.73 414.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51108,18 +51108,18 @@
 	)
 	(symbol
 		(lib_id "Reference_Voltage:LM4040DBZ-5")
-		(at 504.19 140.97 90)
+		(at 504.19 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7df2623b-4b01-4e73-aff4-5e39deba2df2")
 		(property "Reference" "U15"
-			(at 506.73 139.6999 90)
+			(at 506.73 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51130,7 +51130,7 @@
 			)
 		)
 		(property "Value" "LM4040DBZ-5"
-			(at 506.73 142.2399 90)
+			(at 506.73 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51141,7 +51141,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 509.27 140.97 0)
+			(at 509.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51153,7 +51153,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
-			(at 504.19 140.97 0)
+			(at 504.19 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51165,7 +51165,7 @@
 			)
 		)
 		(property "Description" "5.000V Precision Micropower Shunt Voltage Reference, SOT-23"
-			(at 504.19 140.97 0)
+			(at 504.19 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51176,7 +51176,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 504.19 140.97 90)
+			(at 504.19 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51187,7 +51187,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 504.19 140.97 90)
+			(at 504.19 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51198,7 +51198,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LM4040DBZ-5"
-			(at 504.19 140.97 90)
+			(at 504.19 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58036,7 +58036,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a78b787f-0bda-48b0-98aa-e1c23c17ca89")
 		(property "Reference" "U32"
@@ -58050,7 +58050,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LM4040DBZ-5"
+		(property "Value" "LM4040D33FTA"
 			(at 506.73 284.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
