@@ -49014,7 +49014,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 513.08 274.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51129,7 +51129,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LM4040DBZ-5"
+		(property "Value" "LM4040D33FTA"
 			(at 506.73 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51247,7 +51247,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 513.08 403.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54318,7 +54318,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 513.08 534.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59171,7 +59171,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 513.08 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
