@@ -4012,7 +4012,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 107.95 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4541,7 +4541,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 119.38 43.18 0)
 			(hide yes)
 			(show_name no)

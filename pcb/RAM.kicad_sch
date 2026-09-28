@@ -1243,7 +1243,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 119.38 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1325,7 +1325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "APS6404L-3SQRx-SN"
+		(property "Value" "APS6404L-3SQR-SN"
 			(at 128.27 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)

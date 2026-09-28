@@ -29760,7 +29760,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1300xRW"
+		(property "Value" "ADuM1300BRWZ"
 			(at 567.69 488.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30537,7 +30537,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -30730,7 +30730,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 511.81 0)
 			(hide yes)
 			(show_name no)
@@ -30876,7 +30876,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -31117,7 +31117,7 @@
 				)
 			)
 		)
-		(property "Value" "DAC7311xDCK"
+		(property "Value" "DAC7311IDCKR"
 			(at 464.82 147.2498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31274,7 +31274,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 527.05 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -31926,7 +31926,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1N4148"
+		(property "Manufacturer_Part_Number" "1N4148WS"
 			(at 55.88 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -32202,7 +32202,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -33374,7 +33374,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1N4148"
+		(property "Manufacturer_Part_Number" "1N4148WS"
 			(at 76.2 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -34234,7 +34234,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -37819,7 +37819,7 @@
 				)
 			)
 		)
-		(property "Value" "DAC7311xDCK"
+		(property "Value" "DAC7311IDCKR"
 			(at 464.82 419.0298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38554,7 +38554,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -39446,7 +39446,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 381 0)
 			(hide yes)
 			(show_name no)
@@ -41092,7 +41092,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -41158,7 +41158,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -41209,6 +41209,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 242.57 458.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "15EDGRC-3.5/4P"
 			(at 242.57 458.47 0)
 			(hide yes)
 			(show_name no)
@@ -41661,7 +41672,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -41930,7 +41941,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 462.28 0)
 			(hide yes)
 			(show_name no)
@@ -42076,7 +42087,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -42207,7 +42218,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -42258,6 +42269,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 242.57 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "15EDGRC-3.5/4P"
 			(at 242.57 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -42376,7 +42398,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 462.28 90)
 			(hide yes)
 			(show_name no)
@@ -42503,7 +42525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32C011F4Px"
+		(property "Value" "STM32C011F4P6"
 			(at 91.0433 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43141,7 +43163,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 375.92 90)
 			(hide yes)
 			(show_name no)
@@ -45510,7 +45532,7 @@
 				)
 			)
 		)
-		(property "Value" "DAC7311xDCK"
+		(property "Value" "DAC7311IDCKR"
 			(at 464.82 289.4898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46455,7 +46477,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -47681,7 +47703,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1300xRW"
+		(property "Value" "ADuM1300BRWZ"
 			(at 567.69 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48355,7 +48377,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 483.87 90)
 			(hide yes)
 			(show_name no)
@@ -49477,7 +49499,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -50534,7 +50556,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 548.64 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -51479,7 +51501,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -53681,7 +53703,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -53971,7 +53993,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -54748,7 +54770,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 527.05 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -55585,7 +55607,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -56051,7 +56073,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 506.73 90)
 			(hide yes)
 			(show_name no)
@@ -57965,7 +57987,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -58299,7 +58321,7 @@
 				)
 			)
 		)
-		(property "Value" "DAC7311xDCK"
+		(property "Value" "DAC7311IDCKR"
 			(at 464.82 549.8398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58900,7 +58922,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 353.06 90)
 			(hide yes)
 			(show_name no)
@@ -59583,7 +59605,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -59731,7 +59753,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -59782,6 +59804,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 168.91 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OQ0512510000G"
 			(at 168.91 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -60401,7 +60434,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -60846,7 +60879,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 488.95 0)
 			(hide yes)
 			(show_name no)
@@ -60928,7 +60961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32C011F4Px"
+		(property "Value" "STM32C011F4P6"
 			(at 122.7933 477.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61079,7 +61112,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1400xRW"
+		(property "Value" "ADuM1400BRWZ"
 			(at 567.69 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61268,7 +61301,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 548.64 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -61565,7 +61598,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -61919,7 +61952,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 331.47 90)
 			(hide yes)
 			(show_name no)
@@ -62898,7 +62931,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1300xRW"
+		(property "Value" "ADuM1300BRWZ"
 			(at 567.69 410.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63885,7 +63918,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1300xRW"
+		(property "Value" "ADuM1300BRWZ"
 			(at 567.69 358.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64041,7 +64074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32C011F4Px"
+		(property "Value" "STM32C011F4P6"
 			(at 87.2333 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64226,7 +64259,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 548.64 474.98 0)
 			(hide yes)
 			(show_name no)
@@ -64371,7 +64404,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1N4148"
+		(property "Manufacturer_Part_Number" "1N4148WS"
 			(at 91.44 490.22 0)
 			(hide yes)
 			(show_name no)
@@ -65232,7 +65265,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 209.55 90)
 			(hide yes)
 			(show_name no)
@@ -65390,7 +65423,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -66065,7 +66098,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 358.14 0)
 			(hide yes)
 			(show_name no)
@@ -66180,7 +66213,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 548.64 394.97 0)
 			(hide yes)
 			(show_name no)
@@ -67290,7 +67323,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1300xRW"
+		(property "Value" "ADuM1300BRWZ"
 			(at 567.69 541.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68443,7 +68476,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 527.05 538.48 0)
 			(hide yes)
 			(show_name no)
@@ -69311,7 +69344,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 548.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -69424,7 +69457,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 506.73 0)
 			(hide yes)
 			(show_name no)
@@ -69539,7 +69572,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 548.64 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -69652,7 +69685,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -70203,7 +70236,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA3AEB2212V "
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -71545,7 +71578,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -72481,7 +72514,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1400xRW"
+		(property "Value" "ADuM1400BRWZ"
 			(at 567.69 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72785,7 +72818,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 548.64 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -72866,7 +72899,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1300xRW"
+		(property "Value" "ADuM1300BRWZ"
 			(at 567.69 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73132,7 +73165,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -73247,7 +73280,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -73763,7 +73796,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -74706,7 +74739,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 467.36 0)
 			(hide yes)
 			(show_name no)
@@ -75094,7 +75127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32C011F4Px"
+		(property "Value" "STM32C011F4P6"
 			(at 107.5533 347.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75279,7 +75312,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF5.0CA"
+		(property "Description" ""
 			(at 458.47 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -75681,7 +75714,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 527.05 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -75876,7 +75909,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 483.87 0)
 			(hide yes)
 			(show_name no)
@@ -76073,7 +76106,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 548.64 525.78 0)
 			(hide yes)
 			(show_name no)
@@ -76186,7 +76219,7 @@
 				)
 			)
 		)
-		(property "Description" "WLBD1608HCU101TL"
+		(property "Description" ""
 			(at 515.62 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -77284,7 +77317,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1N4148"
+		(property "Manufacturer_Part_Number" "1N4148WS"
 			(at 59.69 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -78046,7 +78079,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -78097,6 +78130,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 168.91 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OQ0512510000G"
 			(at 168.91 44.45 0)
 			(hide yes)
 			(show_name no)
