@@ -3,11 +3,13 @@ C1,C4,C5,C6,C8,C9,C10,C11,C12,C13,C15,C17,C20,C21,C22,C24,C25,C26,C27,C28,C29,C3
 C2,C18,C34,C49;10u;Capacitor_SMD:C_1206_3216Metric;Unpolarized capacitor;4
 C3,C7,C14,C19,C23,C30,C35,C39,C45,C50,C54,C60;10n;Capacitor_SMD:C_0603_1608Metric;Unpolarized capacitor;12
 C16,C32,C47,C62;1n;Capacitor_SMD:C_0603_1608Metric;Unpolarized capacitor;4
-D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14;SMF5.0CA;Diode_SMD:D_SMF;SMF5.0CA;14
+D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14;SMF5.0CA;Diode_SMD:D_SMF;;14
 D15,D16,D17,D18;D;Diode_SMD:D_SOD-323F;Diode;4
-FB2,FB3,FB5,FB6,FB7,FB8,FB9,FB10,FB11,FB12,FB13,FB14,FB15,FB16,FB17,FB18,FB19,FB20,FB21,FB22,FB23,FB24,FB25,FB26,FB27,FB28,FB29,FB30,FB31;100R @ 100MHz;Inductor_SMD:L_0603_1608Metric;WLBD1608HCU101TL;29
+FB2,FB3,FB5,FB6,FB7,FB8,FB9,FB10,FB11,FB12,FB13,FB14,FB15,FB16,FB17,FB18,FB19,FB20,FB21,FB22,FB23,FB24,FB25,FB26,FB27,FB28,FB29,FB30,FB31;100R @ 100MHz;Inductor_SMD:L_0603_1608Metric;;29
 IC1,IC2,IC3,IC4,IC5,IC6,IC7,IC8,IC9,IC10,IC11,IC12,IC13,IC14;TS3021ILT;TS3021ILT:SOT95P280X145-5N;Rail-to-rail 1.8 V high-speed comparator;14
 IC15,IC16,IC17,IC18;NCP51460SN33T1G;Package_TO_SOT_SMD:SOT-23;Operating Input Voltage VIN 4.2 V to 28 V; Output Current Capability of 0 to 20 mA; Output Voltage Temperature Coefficient of 18 ppm/C; Output Voltage Accuracy 1 %, for 0 C TA 100 C ; High PSRR of 68 dB at 1 kHz; Stable Without Output Capacitor; Low Quiescent Current of 140 A; Low Output Noise of 18 VRMS; Output Voltage Option: 3.3V;4
+J1,J2;Conn_01x05_Socket;Connector_Phoenix_MC:PhoenixContact_MC_1,5_5-G-3.5_1x05_P3.50mm_Horizontal;Generic connector, single row, 01x05, script generated;2
+J3,J4;Conn_01x04_Socket;Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal;Generic connector, single row, 01x04, script generated;2
 R1,R12,R31,R50,R58,R69,R88,R107,R115,R124,R139,R158,R167,R182;50k;Resistor_SMD:R_0603_1608Metric;Resistor;14
 R2,R17,R39,R51,R59,R74,R96,R108,R116,R128,R145,R159,R171,R188;1k;Resistor_SMD:R_0603_1608Metric;Resistor;14
 R3,R18,R45,R52,R60,R75,R102,R109,R117,R129,R150,R160,R172,R193;100;Resistor_SMD:R_0603_1608Metric;Resistor;14
@@ -16,9 +18,9 @@ R8,R9,R10,R11,R13,R14,R15,R16,R23,R24,R25,R26,R27,R28,R29,R30,R32,R33,R34,R35,R4
 R57,R114,R157,R200;330;Resistor_SMD:R_0603_1608Metric;Resistor;4
 U1,U18,U35,U49;TEA1-0505;Converter_DCDC:Converter_DCDC_TRACO_TEA1-xxxx_THT;1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.5kVDC isolation, SIP-4;4
 U2,U3,U4,U5,U6,U7,U8,U9,U11,U12,U13,U14,U19,U20,U21,U22,U23,U24,U25,U26,U28,U29,U30,U31,U36,U37,U38,U39,U40,U41,U43,U44,U45,U50,U51,U52,U53,U54,U55,U57,U58,U59;GAQY212GS;Package_SO:SOP-4_3.8x4.1mm_P2.54mm;Form A, Solid State Relay (Photo MOSFET) 60V, 0.08A, 0,24Ohm, AC/DC, SO-4;42
-U10,U27;ADuM1400xRW;Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;Quad Channel Digital Isolator, 10Mbps, SOIC-16;2
+U10,U27;ADuM1400BRWZ;Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;Quad Channel Digital Isolator, 10Mbps, SOIC-16;2
 U15,U32,U46,U60;LM4040D33FTA;Package_TO_SOT_SMD:SOT-23;3.300V Precision Micropower Shunt Voltage Reference, SOT-23;4
-U16,U33,U47,U61;DAC7311xDCK;Package_TO_SOT_SMD:SOT-363_SC-70-6;12-Bit, Single-Channel, Voltage Output, Serial Interface Digital-to-Analog Converters, SC-70;4
-U17,U34,U42,U48,U56,U62;ADuM1300xRW;Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;Three Channel Digital Isolator, 10Mbps, SOICW-16;6
-U63;APS6404L-3SQRx-SN;Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;64 Mbit / 8M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, SOIC-8 (SOP-8);1
-U64,U65,U66,U67;STM32C011F4Px;Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm;STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 6KB RAM, 48 MHz, 2.0-3.6V, 18 GPIO, TSSOP20;4
+U16,U33,U47,U61;DAC7311IDCKR;Package_TO_SOT_SMD:SOT-363_SC-70-6;12-Bit, Single-Channel, Voltage Output, Serial Interface Digital-to-Analog Converters, SC-70;4
+U17,U34,U42,U48,U56,U62;ADuM1300BRWZ;Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;Three Channel Digital Isolator, 10Mbps, SOICW-16;6
+U63;APS6404L-3SQR-SN;Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;64 Mbit / 8M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, SOIC-8 (SOP-8);1
+U64,U65,U66,U67;STM32C011F4P6;Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm;STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 6KB RAM, 48 MHz, 2.0-3.6V, 18 GPIO, TSSOP20;4
