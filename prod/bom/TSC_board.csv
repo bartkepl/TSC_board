@@ -17,7 +17,7 @@ R57,R114,R157,R200;330;Resistor_SMD:R_0603_1608Metric;Resistor;4
 U1,U18,U35,U49;TEA1-0505;Converter_DCDC:Converter_DCDC_TRACO_TEA1-xxxx_THT;1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.5kVDC isolation, SIP-4;4
 U2,U3,U4,U5,U6,U7,U8,U9,U11,U12,U13,U14,U19,U20,U21,U22,U23,U24,U25,U26,U28,U29,U30,U31,U36,U37,U38,U39,U40,U41,U43,U44,U45,U50,U51,U52,U53,U54,U55,U57,U58,U59;GAQY212GS;Package_SO:SOP-4_3.8x4.1mm_P2.54mm;Form A, Solid State Relay (Photo MOSFET) 60V, 0.08A, 0,24Ohm, AC/DC, SO-4;42
 U10,U27;ADuM1400xRW;Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;Quad Channel Digital Isolator, 10Mbps, SOIC-16;2
-U15,U32,U46,U60;LM4040D33FTA;Package_TO_SOT_SMD:SOT-23;5.000V Precision Micropower Shunt Voltage Reference, SOT-23;4
+U15,U32,U46,U60;LM4040D33FTA;Package_TO_SOT_SMD:SOT-23;3.300V Precision Micropower Shunt Voltage Reference, SOT-23;4
 U16,U33,U47,U61;DAC7311xDCK;Package_TO_SOT_SMD:SOT-363_SC-70-6;12-Bit, Single-Channel, Voltage Output, Serial Interface Digital-to-Analog Converters, SC-70;4
 U17,U34,U42,U48,U56,U62;ADuM1300xRW;Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;Three Channel Digital Isolator, 10Mbps, SOICW-16;6
 U63;APS6404L-3SQRx-SN;Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;64 Mbit / 8M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, SOIC-8 (SOP-8);1
